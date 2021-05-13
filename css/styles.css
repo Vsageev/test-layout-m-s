@@ -1,0 +1,71 @@
+#mainNav a {
+    /* color: white; */
+}
+
+.navbar-shrink {
+    background: white;
+    color: black;
+}
+
+.navbar-shrink a {
+    background: blue;
+    color: white;
+}
+
+#screen1 {
+    color: white;
+    background-color: #4a5964;
+    width: 100%;
+    height: max-content;
+    overflow: hidden;
+}
+
+#screen1 img {
+    height: 30rem;
+    margin-bottom: -15rem;
+}
+
+.screen1-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#screen2 {
+    color: white;
+    background-color: #eaeaea;
+    width: 100%;
+    height: max-content;
+    overflow: hidden;
+}
+
+#screen2 img {
+    height: 10rem;
+}
+
+.screen2-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.marketing h2 {
+    font-weight: 400;
+}
+
+.marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+}
