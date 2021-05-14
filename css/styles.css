@@ -1,15 +1,17 @@
 #mainNav a {
-    /* color: white; */
+    color: white;
 }
 
 .navbar-shrink {
     background: white;
+}
+
+#mainNav .colorize {
     color: black;
 }
 
-.navbar-shrink a {
-    background: blue;
-    color: white;
+.navbar-toggler {
+    background: white;
 }
 
 #screen1 {
@@ -56,6 +58,11 @@
     margin-bottom: 2rem;
 }
 
+#screen3 {
+    /* background: tomato; */
+    padding-top: 2rem;
+}
+
 .marketing .col-lg-4 {
     margin-bottom: 1.5rem;
     text-align: center;
@@ -68,4 +75,16 @@
 .marketing .col-lg-4 p {
     margin-right: .75rem;
     margin-left: .75rem;
+}
+
+#screen4 {
+    /* background: burlywood; */
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
