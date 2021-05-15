@@ -14,6 +14,20 @@
     background: white;
 }
 
+.selected {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 1rem;
+}
+
+@media (max-width:992px) {
+    #mainNav {
+        background-color: white;
+    }
+    #mainNav a {
+        color: black;
+    }
+}
+
 #screen1 {
     color: white;
     background-color: #4a5964;
