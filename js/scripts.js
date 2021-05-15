@@ -16,7 +16,7 @@
 
 $(document).ready(function() {
     $('.responsive').slick({
-        arrows: true,
+        arrows: false,
         dots: true,
         infinite: false,
         speed: 300,
@@ -50,4 +50,12 @@ $(document).ready(function() {
             // instead of a settings object
         ]
     });
+
+    $('.left').click(function() {
+        $('.responsive').slick('slickPrev');
+    })
+
+    $('.right').click(function() {
+        $('.responsive').slick('slickNext');
+    })
 });

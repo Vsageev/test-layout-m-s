@@ -14,6 +14,11 @@
     background: white;
 }
 
+.navbar-brand {
+    font-family: Monotype Corsiva;
+    font-size: 2rem;
+}
+
 .selected {
     background: rgba(0, 0, 0, 0.2);
     border-radius: 1rem;
@@ -60,7 +65,7 @@
 }
 
 #screen2 img {
-    height: 10rem;
+    height: 5rem;
 }
 
 .screen2-content {
@@ -68,8 +73,8 @@
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 #screen3 {
@@ -84,21 +89,85 @@
 
 .marketing h2 {
     font-weight: 400;
+    color: #7d8f9b;
 }
 
 .marketing .col-lg-4 p {
     margin-right: .75rem;
     margin-left: .75rem;
+    color: grey;
 }
 
 #screen4 {
     /* background: burlywood; */
-    padding-bottom: 2rem;
-    padding-top: 2rem;
+    margin-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+#screen4 h2 {
+    color: #7d8f9b;
+}
+
+.content4 {
+    display: flex;
+    flex-direction: row;
+}
+
+#screen5 h2 {
+    color: #7d8f9b;
+}
+
+.news {
+    margin-top: 1rem;
+}
+
+.news h4 {
+    color: rgb(114, 114, 114);
+}
+
+.news span {
+    color: grey;
+}
+
+.news p {
+    color: rgb(189, 189, 189);
+}
+
+.news a {
+    text-decoration: none
+}
+
+.news-img {
+    margin-right: 2rem;
+    width: 15rem;
+    height: 100%;
+    display: flex;
+    align-self: center;
+}
+
+.tweet {
+    margin-top: 1rem;
+}
+
+.tweet-text {
+    color: grey;
+}
+
+.tweet p {
+    color: rgb(189, 189, 189);
 }
 
 .footer-content {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content span {
+    color: grey;
+}
+
+.footer-content img {
+    width: 2rem;
 }
