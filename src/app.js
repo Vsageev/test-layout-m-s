@@ -1,0 +1,6 @@
+import './css/bootstrap.min.css' 
+import './css/styles.css' 
+import './js/scripts.js' 
+import 'https://code.jquery.com/jquery-3.5.1.min.js' 
+// import './js/scripts.js' 
+// import './js/scripts.js' 

@@ -13,37 +13,40 @@
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
 </head>
 
+
+<script type="text/javascript" src="dist/index_bundle.js"></script>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-        <div class="container ">
+        <div class="container">
             <a class="navbar-brand" href="#page-top">SomeAppPage</a>
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
                 Menu
                 <i class="fas fa-bars"></i>
             </button>
             <div class="collapse navbar-collapse " id="navbarResponsive">
                 <div class="me-auto">
                 </div>
-                <ul class="navbar-nav ">
-                    <li class="nav-item"><a class="nav-link " href="#screen1">Home</a></li>
-                    <li class="nav-item"><a class="nav-link " href="#screen3">About</a></li>
-                    <li class="nav-item"><a class="nav-link " href="#screen4">Work</a></li>
-                    <li class="nav-item"><a class="nav-link " href="#screen5">Contact</a></li>
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link " href="#screenHome">Home</a></li>
+                    <li class="nav-item"><a class="nav-link " href="#screenAbout">About</a></li>
+                    <li class="nav-item"><a class="nav-link " href="#screenWork">Work</a></li>
+                    <li class="nav-item"><a class="nav-link " href="#screenContact">Contact</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
-
-    <div id="screen1">
+    <div id="screenHome">
         <div class="container">
-            <div style="height: 5rem;"></div>
             <div class="row">
-                <div class="col-lg-8 screen1-content">
+                <div class="col-lg-8 p-5">
                     <div>
                         <p class="display-3"><b>We design iOS apps</b></p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <p style="color: gray;"> Deleniti a voluptate iste cum quo cumque, repellat laborum itaque? Vel similique itaque in sint, provident culpa. Numquam eum quod quos voluptatibus!</p>
+                        <p style="color: gray;"> Deleniti a voluptate iste cum quo cumque, repellat laborum itaque? Vel
+                            similique itaque in sint, provident culpa. Numquam eum quod quos voluptatibus!</p>
                         <div>
                             <button class="btn btn-primary">Request a quote</button> or
                             <button class="btn btn-link text-white">See our recent work</button>
@@ -51,111 +54,112 @@
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <img src="https://techsmartpros.com/wp-content/uploads/2017/11/iphone-7-png.png">
+                    <img src="https://techsmartpros.com/wp-content/uploads/2017/11/iphone-7-png.png"
+                        class="half-cut-phone">
                 </div>
             </div>
         </div>
     </div>
 
-    <div id="screen2">
-        <div class="screen2-content">
-            <div><img src="./assets/Mac.png">
+    <div id="screenBrands">
+        <div><img src="./assets/Mac.png" class="brand-image">
+        </div>
+        <div><img src="./assets/Mac.png" class="brand-image">
+        </div>
+        <div><img src="./assets/Mac.png" class="brand-image">
+        </div>
+        <div><img src="./assets/Mac.png" class="brand-image">
+        </div>
+        <div><img src="./assets/Mac.png" class="brand-image">
+        </div>
+    </div>
+
+    <div id="screenAbout" class="container">
+        <div class="row">
+            <div class="col-lg-4 marketing-feature">
+                <svg class="rounded-circle marketing-image">
+                    <rect width="100%" height="100%" fill="#7d8f9b" />
+                </svg>
+                <h2 class="marketing-heading">Useable designs</h2>
+                <p class="marketing-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam, a harum
+                    saepe rerum id alias fugiat
+                    laboriosam dolor necessitatibus nostrum ipsam libero exercitationem aliquam esse? Iusto id autem
+                    alias expedita?
+                </p>
+                <button class="btn btn-primary">Read more</button>
             </div>
-            <div><img src="./assets/Mac.png">
+            <div class="col-lg-4 marketing-feature">
+                <svg class="rounded-circle marketing-image">
+                    <rect width="100%" height="100%" fill="#7d8f9b" />
+                </svg>
+                <h2 class="marketing-heading">Solid development</h2>
+                <p class="marketing-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam, a harum
+                    saepe rerum id alias fugiat
+                    laboriosam dolor necessitatibus nostrum ipsam libero exercitationem aliquam esse? Iusto id autem
+                    alias expedita?
+                </p>
+                <button class="btn btn-primary">Read more</button>
             </div>
-            <div><img src="./assets/Mac.png">
-            </div>
-            <div><img src="./assets/Mac.png">
-            </div>
-            <div><img src="./assets/Mac.png">
+            <div class="col-lg-4 marketing-feature">
+                <svg class="rounded-circle marketing-image">
+                    <rect width="100%" height="100%" fill="#7d8f9b" />
+                </svg>
+                <h2 class="marketing-heading">Engaging interfaces</h2>
+                <p class="marketing-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam, a harum
+                    saepe rerum id alias fugiat
+                    laboriosam dolor necessitatibus nostrum ipsam libero exercitationem aliquam esse? Iusto id autem
+                    alias expedita?
+                </p>
+                <button class="btn btn-primary">Read more</button>
             </div>
         </div>
     </div>
 
-    <div id="screen3" class="container">
-        <div class="row marketing">
-            <div class="col-lg-4">
-                <svg class="bd-placeholder-img rounded-circle" width="140" height="140">
-                    <rect width="100%" height="100%" fill="#7d8f9b" />
-                </svg>
-                <h2>Useable designs</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam, a harum saepe rerum id alias fugiat laboriosam dolor necessitatibus nostrum ipsam libero exercitationem aliquam esse? Iusto id autem alias expedita?
-                </p>
-                <p><button class="btn btn-primary">Read more</button> </button>
-                </p>
-            </div>
-            <div class="col-lg-4">
-                <svg class="bd-placeholder-img rounded-circle" width="140" height="140">
-                    <rect width="100%" height="100%" fill="#7d8f9b" />
-                </svg>
-                <h2>Solid development</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam, a harum saepe rerum id alias fugiat laboriosam dolor necessitatibus nostrum ipsam libero exercitationem aliquam esse? Iusto id autem alias expedita?
-                </p>
-                <p><button class="btn btn-primary">Read more</button> </button>
-                </p>
-            </div>
-            <div class="col-lg-4">
-                <svg class="bd-placeholder-img rounded-circle" width="140" height="140">
-                    <rect width="100%" height="100%" fill="#7d8f9b" />
-                </svg>
-                <h2>Engaging interfaces</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam, a harum saepe rerum id alias fugiat laboriosam dolor necessitatibus nostrum ipsam libero exercitationem aliquam esse? Iusto id autem alias expedita?
-                </p>
-                <p><button class="btn btn-primary">Read more</button> </button>
-                </p>
-            </div>
-        </div>
-    </div>
-
-    <div id="screen4">
-        <div class="content4">
-            <!-- <button class="left"><</button> -->
-            <div class="container">
-                <h2>Selected projects</h2>
-                <div>
-                    <div class="responsive">
-                        <img src="./assets/marketing.png ">
-                        <img src="./assets/marketing2.png ">
-                        <img src="./assets/marketing3.png ">
-                        <img src="./assets/marketing3.png ">
-                        <img src="./assets/marketing2.png ">
-                        <img src="./assets/marketing3.png ">
-                        <img src="./assets/marketing.png ">
-                    </div>
+    <div id="screenWork">
+        <div class="container">
+            <h2 class="work-header">Selected projects</h2>
+            <div>
+                <div class="responsive-slider">
+                    <img src="./assets/marketing.png ">
+                    <img src="./assets/marketing2.png ">
+                    <img src="./assets/marketing3.png ">
+                    <img src="./assets/marketing3.png ">
+                    <img src="./assets/marketing2.png ">
+                    <img src="./assets/marketing3.png ">
+                    <img src="./assets/marketing.png ">
                 </div>
             </div>
-            <!-- <button class="right">></button> -->
         </div>
     </div>
 
-    <div id="screen5" class="container ">
-        <div class="row container ">
-            <div class="col-lg-6 " style="padding-bottom: 4rem;">
-                <h2>From our blog</h2>
+    <div id="screenContact" class="container">
+        <div class="row">
+            <div class="col-lg-6 contact-section">
+                <h2 class="section-header">From our blog</h2>
                 <div class="news row">
                     <img class="news-img col-lg-6" src="./assets/news1.png ">
                     <div class="col-lg-6">
-                        <h4>Our work process reviewed</h4>
-                        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore atque sapiente, ad ipsam
+                        <h4 class="news-header">Our work process reviewed</h4>
+                        <span class="news-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore atque sapiente, ad ipsam
                             alias explicabo officia commodi totam unde suscipit asperiores minima eligendi?</span>
-                        <a href="# ">Read more...</a>
-                        <p>01/01/13 - 10:20 AM</p>
+                        <a href="# " class="remove-underline">Read more...</a>
+                        <p class="date-text">01/01/13 - 10:20 AM</p>
                     </div>
                 </div>
                 <div class="news row">
                     <img class="news-img col-lg-6" src="./assets/news2.png">
                     <div class="col-lg-6">
-                        <h4>Who we are at Appcompany</h4>
-                        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore atque sapiente, ad ipsam
+                        <h4 class="news-header">Who we are at Appcompany</h4>
+                        <span class="news-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore atque sapiente, ad ipsam
                             alias explicabo officia commodi totam unde suscipit asperiores minima eligendi?</span>
-                        <a href="# ">Read more...</a>
-                        <p>01/01/13 - 10:20 AM</p>
+                        <a href="# " class="remove-underline">Read more...</a>
+                        <p class="date-text">01/01/13 - 10:20 AM</p>
                     </div>
                 </div>
-                <a href="#" style="text-decoration:none">Older entries</a>
+                <a href="#" class="remove-underline">Older entries</a>
             </div>
-            <div class="col-lg-6" style="padding-bottom: 4rem;">
-                <h2>Our Tweeter feed</h2>
+            <div class="col-lg-6 contact-section">
+                <h2 class="section-header">Our Tweeter feed</h2>
                 <div class="tweet">
                     <span>@qqdzhek: </span><span class="tweet-text">Анлокнули твиттер спустя пол года и 17
                         обращений</span>
@@ -164,41 +168,41 @@
                 <div class="tweet">
                     <span>@qqdzhek: </span><span class="tweet-text">Анлокнули твиттер спустя пол года и 17
                         обращений</span>
-                    <p>01/01/13 - 10:20 AM</p>
+                    <p class="date-text">01/01/13 - 10:20 AM</p>
                 </div>
                 <div class="tweet">
                     <span>@qqdzhek: </span><span class="tweet-text">Анлокнули твиттер спустя пол года и 17
                         обращений</span>
-                    <p>01/01/13 - 10:20 AM</p>
+                    <p class="date-text">01/01/13 - 10:20 AM</p>
                 </div>
                 <div class="tweet">
                     <span>@qqdzhek: </span><span class="tweet-text">Анлокнули твиттер спустя пол года и 17
                         обращений</span>
-                    <p>01/01/13 - 10:20 AM</p>
+                    <p class="date-text">01/01/13 - 10:20 AM</p>
                 </div>
-                <a href="#" style="text-decoration:none">Folow us on tweeter</a>
+                <a href="#" class="remove-underline">Folow us on tweeter</a>
             </div>
         </div>
     </div>
 
-    <footer class="container ">
+    <footer class="container">
         <hr>
         <div class="footer-content">
-            <span>@some name at some year</span>
+            <span class="footer-content-copyright">@some name at some year</span>
             <div>
-                <img src="assets/facebook.png">
-                <img src="assets/facebook.png">
-                <img src="assets/facebook.png">
-                <img src="assets/facebook.png">
+                <img class="footer-soc-med-img" src="assets/facebook.png">
+                <img class="footer-soc-med-img" src="assets/facebook.png">
+                <img class="footer-soc-med-img" src="assets/facebook.png">
+                <img class="footer-soc-med-img" src="assets/facebook.png">
             </div>
         </div>
     </footer>
 
 
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js "></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.min.js "></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js "></script>
     <script src="js/scripts.js "></script>
-    <script type="text/javascript " src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js "></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js "></script> -->
 
 </body>
 

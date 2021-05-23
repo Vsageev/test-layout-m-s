@@ -15,7 +15,7 @@
 })(jQuery);
 
 $(document).ready(function() {
-    $('.responsive').slick({
+    $('.responsive-slider').slick({
         arrows: false,
         dots: true,
         infinite: false,

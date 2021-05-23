@@ -1,4 +1,4 @@
-#mainNav a {
+.navbar-brand {
     color: white;
 }
 
@@ -33,7 +33,8 @@
     }
 }
 
-#screen1 {
+#screenHome {
+    padding-top: 5rem;
     color: white;
     background-color: #4a5964;
     width: 100%;
@@ -41,99 +42,91 @@
     overflow: hidden;
 }
 
-#screen1 img {
+.half-cut-phone{
     height: 30rem;
     margin-bottom: -15rem;
 }
 
-.screen1-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-left: 5rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-}
 
-#screen2 {
+
+#screenBrands {
     color: white;
     background-color: #eaeaea;
     width: 100%;
     height: max-content;
     overflow: hidden;
-}
-
-#screen2 img {
-    height: 5rem;
-}
-
-.screen2-content {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    padding:1rem 0 1rem 0;
 }
 
-#screen3 {
+.brand-image {
+    height: 5rem;
+}
+
+
+#screenAbout {
     /* background: tomato; */
     padding-top: 2rem;
 }
 
-.marketing .col-lg-4 {
+.marketing-feature {
     margin-bottom: 1.5rem;
     text-align: center;
 }
 
-.marketing h2 {
+.marketing-image{
+    width: 140px;
+    height: 140px;
+}
+
+.marketing-heading{
     font-weight: 400;
     color: #7d8f9b;
 }
 
-.marketing .col-lg-4 p {
-    margin-right: .75rem;
-    margin-left: .75rem;
+.marketing-text {
+    margin: 0 .75rem 0 .75rem;
     color: grey;
 }
 
-#screen4 {
-    /* background: burlywood; */
+#screenWork {
     margin-top: 4rem;
-    padding-bottom: 4rem;
 }
 
-#screen4 h2 {
+.work-header {
     color: #7d8f9b;
 }
 
-.content4 {
-    display: flex;
-    flex-direction: row;
+
+
+.section-header{
+    color: #7d8f9b;
 }
 
-#screen5 h2 {
-    color: #7d8f9b;
+.contact-section{
+    padding-top: 4rem;
 }
 
 .news {
     margin-top: 1rem;
 }
 
-.news h4 {
+.news-header {
     color: rgb(114, 114, 114);
 }
 
-.news span {
+.news-text {
     color: grey;
 }
 
-.news p {
+.date-text {
     color: rgb(189, 189, 189);
 }
 
-.news a {
+.remove-underline {
     text-decoration: none
 }
 
@@ -153,9 +146,6 @@
     color: grey;
 }
 
-.tweet p {
-    color: rgb(189, 189, 189);
-}
 
 .footer-content {
     display: flex;
@@ -164,10 +154,10 @@
     align-items: center;
 }
 
-.footer-content span {
+.footer-content-copyright {
     color: grey;
 }
 
-.footer-content img {
+.footer-soc-med-img {
     width: 2rem;
 }
