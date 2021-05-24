@@ -1,6 +1,5 @@
-import './css/bootstrap.min.css' 
-import './css/styles.css' 
-import './js/scripts.js' 
-// import 'https://code.jquery.com/jquery-3.5.1.min.js' 
-// import './js/scripts.js' 
-// import './js/scripts.js' 
+import './js/scripts.js'
+import css from "./css/styles.css";
+import slickCss from "./css/slick.css";
+// import slickThemeCss from "./css/slick-theme.css";
+import bootStrapCss from "./css/bootstrap-grid.min.css";

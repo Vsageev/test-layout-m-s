@@ -1,8 +1,78 @@
-.navbar-brand {
-    color: white;
+body {
+    margin: 0;
 }
 
-.navbar-shrink {
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 90vw;
+    z-index: 99;
+    padding: 0 5vw;
+}
+
+.nav-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbar-brand {
+    font-family: Monotype Corsiva;
+    text-decoration: none;
+    font-size: 2rem;
+    color: white;
+    align-self: center;
+}
+
+.navbar-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar-nav li {
+    float: left;
+}
+
+.navbar-nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.button-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.button-nav li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.navbar-toggler {
+    background: white;
+    border: none;
+    padding: 14px 16px;
+}
+
+.navbar-toggler:hover {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.navbar-scrolled {
     background: white;
 }
 
@@ -10,21 +80,7 @@
     color: black;
 }
 
-.navbar-toggler {
-    background: white;
-}
-
-.navbar-brand {
-    font-family: Monotype Corsiva;
-    font-size: 2rem;
-}
-
-.selected {
-    background: rgba(0, 0, 0, 0.2);
-    border-radius: 1rem;
-}
-
-@media (max-width:992px) {
+@media (max-width:800px) {
     #mainNav {
         background-color: white;
     }
@@ -42,12 +98,22 @@
     overflow: hidden;
 }
 
-.half-cut-phone{
+.half-cut-phone {
     height: 30rem;
     margin-bottom: -15rem;
 }
 
+.home-info {
+    margin-bottom: 3rem;
+}
 
+.quote-button {
+    background: #3e96d2;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
 
 #screenBrands {
     color: white;
@@ -59,17 +125,15 @@
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding:1rem 0 1rem 0;
+    padding: 1rem 0 1rem 0;
 }
 
 .brand-image {
     height: 5rem;
 }
 
-
 #screenAbout {
-    /* background: tomato; */
-    padding-top: 2rem;
+    padding-top: 3rem;
 }
 
 .marketing-feature {
@@ -77,37 +141,43 @@
     text-align: center;
 }
 
-.marketing-image{
+.marketing-image {
     width: 140px;
     height: 140px;
 }
 
-.marketing-heading{
+.marketing-heading {
     font-weight: 400;
     color: #7d8f9b;
 }
 
 .marketing-text {
-    margin: 0 .75rem 0 .75rem;
     color: grey;
 }
 
+.marketing-button {
+    background: #3e96d2;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin: 0.2rem;
+}
+
 #screenWork {
-    margin-top: 4rem;
+    padding-top: 3rem;
 }
 
 .work-header {
     color: #7d8f9b;
 }
 
-
-
-.section-header{
-    color: #7d8f9b;
+#screenContact {
+    padding-top: 3rem;
 }
 
-.contact-section{
-    padding-top: 4rem;
+.section-header {
+    color: #7d8f9b;
 }
 
 .news {
@@ -126,14 +196,15 @@
     color: rgb(189, 189, 189);
 }
 
-.remove-underline {
-    text-decoration: none
+.contact-section-link {
+    text-decoration: none;
+    color: rgb(34, 130, 185);
 }
 
 .news-img {
-    margin-right: 2rem;
-    width: 15rem;
-    height: 100%;
+    /* margin-right: 2rem; */
+    /* width: 5rem; */
+    /* height: 100%; */
     display: flex;
     align-self: center;
 }
@@ -145,7 +216,6 @@
 .tweet-text {
     color: grey;
 }
-
 
 .footer-content {
     display: flex;
